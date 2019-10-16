@@ -38,7 +38,38 @@ div.servicos {
     width: 100%;
     background: white;
     height: 83.33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+}
+
+div.servicos div.subServi{
+	display: flex;
+	width: 80%;
+	height: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+div.servicos div.subServiMid{
+	display: flex;
+	width: 50%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+div.box{
+	display: flex;
+	height: 90%;
+	width: 32vw;
+	border-radius: 3%;
+	background-image: url("teste.jpg");
+	background-position: center;
+	align-items: center;
+	justify-content:center;
 }
 
 div.sobre {
